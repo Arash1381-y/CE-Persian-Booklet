@@ -16,7 +16,7 @@ in database systems.
 - #### **date**: 2022-2023
 
 ---
-# CONTRIBUTORS:
+## CONTRIBUTORS:
 - Arash Yadegari (CE-Student at Sharif University of Technology)
 
 
