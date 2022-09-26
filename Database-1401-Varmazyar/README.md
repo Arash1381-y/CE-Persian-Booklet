@@ -1,6 +1,6 @@
 ## NOTICE:
 
-This booklet is written for covering contents presented in classes, Therefore it's not rational to use it as reliable
+This booklet is written for covering contents presented in classes, Therefore it's not rational to use it as a reliable
 source!!!.
 ---
 ## Course Description
