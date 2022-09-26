@@ -1,0 +1,28 @@
+%! Package = PACKAGE_NAME
+%! Author = Lenovo
+%! Date = 9/26/2022
+\RequirePackage{graphicx}
+\RequirePackage{fancyhdr}
+\RequirePackage[margin=1in]{geometry}
+\RequirePackage{listings}
+\RequirePackage[hidelinks]{hyperref}
+\RequirePackage{xcolor}
+\RequirePackage{xepersian}
+\settextfont[Path=fonts/,BoldFont={XB Zar bold.ttf},ItalicFont={XB Zar italic.ttf}]{XB Zar.ttf}
+
+
+\newcommand{\heading}[2]{
+    \begin{center}
+        \textbf{ \Huge{به نام خدا} }
+        \vspace{}
+        
+        \includegraphics[width=0.4\textwidth]{source/sharif}\\
+
+        \vspace{0.2 cm}
+        \textbf{ \Huge{طراحی پایگاه داده} }\\
+        \vspace{0.25 cm}
+    \end{center}
+}
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{commons/booklet}[2022/09/26 Lenovo's Package]
+
