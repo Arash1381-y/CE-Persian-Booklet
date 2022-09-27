@@ -7,6 +7,8 @@
 \RequirePackage{listings}
 \RequirePackage[hidelinks]{hyperref}
 \RequirePackage{xcolor}
+\RequirePackage{tcolorbox}
+
 \RequirePackage{xepersian}
 \settextfont[Path=fonts/,BoldFont={XB Zar bold.ttf},ItalicFont={XB Zar italic.ttf}]{XB Zar.ttf}
 
@@ -15,12 +17,37 @@
     \begin{center}
         \textbf{ \Huge{به نام خدا} }
         \vspace{}
-        
+
         \includegraphics[width=0.4\textwidth]{source/sharif}\\
 
         \vspace{0.2 cm}
-        \textbf{ \Huge{طراحی پایگاه داده} }\\
-        \vspace{0.25 cm}
+        \textbf{\Huge{دانشگاه صنعتی شریف}}\\
+        \vspace{2 cm}
+        \textbf{\Huge{طراحی پایگاه داده}}\\
+        \vspace{1 cm}
+    \end{center}
+
+    \begin{flushright}
+        \textbf{\Large{مدرس : دکتر محسن ورمزیار}}\\
+        \vspace{0.5 cm}
+        \textbf{\Large{مشارکت کنندگان: #2}}\\
+        \vspace{0.5 cm}
+        \textbf{\Large{جلسه #1}}\\
+    \end{flushright}
+}
+
+\newcommand{\contribute}{
+    \begin{center}
+        \begin{tcolorbox}
+            \Large{
+                \textbf{  چند نکته مهم}\\
+                \begin{enumerate}
+                    \item شما میتوانید در \href{https://github.com/Arash1381-y/CE-Persian-Booklet/tree/main/Database-1401-Varmazyar}{\textbf{\underline{اینجا}}} به ریپازیتوری ما سر بزنید
+                    \item اگر در هر بخشی از جزوه ایرادی مشاهده کردید می توانید یک issue بسازید
+                    \item در صورت تمایل به مشارکت به من پیام بده :)
+                \end{enumerate}
+            }
+        \end{tcolorbox}
     \end{center}
 }
 \NeedsTeXFormat{LaTeX2e}
