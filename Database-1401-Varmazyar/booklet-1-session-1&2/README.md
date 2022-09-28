@@ -1,7 +1,7 @@
-# Booklet number 1
-# Sessions covered: 1 & 2
+## Booklet number 1
+## Sessions covered: 1 & 2
 
 ---
-# Contributors: 
+## Contributors: 
 - Arash Yadegari
 - Mohammad Khosravi
