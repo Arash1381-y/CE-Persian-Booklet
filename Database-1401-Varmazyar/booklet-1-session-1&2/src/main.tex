@@ -1,0 +1,28 @@
+%! Author = Arash Yadegari
+%! Date = 9/26/2022
+
+% Preamble
+\documentclass[12px]{article}
+
+% Packages
+\usepackage{amsmath}
+\usepackage{commons/booklet}
+
+\begin{document}
+
+    \nocite{*}
+    \bibliography{main}
+    \bibliographystyle{plain}
+    \begin{titlepage}
+        \bookletmeta{آرش یادگاری، محمد خسروی}{1 و 2}{1401/07/02}
+        \vspace{1 cm}
+        \contribute
+    \end{titlepage}
+
+    \newpage
+    \tableofcontents
+
+    \newpage
+    \subject{این یک تیتر می باشد}{files/sub1.tex}
+
+\end{document}
