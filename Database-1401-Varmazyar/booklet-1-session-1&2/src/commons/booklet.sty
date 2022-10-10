@@ -10,6 +10,7 @@
 \RequirePackage{tcolorbox}
 \RequirePackage{fontspec}
 \RequirePackage{float}
+\RequirePackage{enumitem}
 
 \RequirePackage{xepersian}
 \settextfont[Path=fonts/,BoldFont={XB NiloofarBd.ttf},ItalicFont={XB Niloofar.ttfIt}]{XB Niloofar.ttf}
@@ -51,7 +52,7 @@
                 \begin{enumerate}
                     \item شما میتوانید در \href{https://github.com/Arash1381-y/CE-Persian-Booklet/tree/main/Database-1401-Varmazyar}{\textbf{\underline{اینجا}}} به ریپازیتوری ما سر بزنید.
                     \item اگر در هر بخشی از جزوه ایرادی مشاهده کردید می توانید یک issue بسازید.
-                    \item در صورت تمایل به مشارکت به من پیام بده :)
+                    \item در صورت تمایل به مشارکت به من پیام بدین :)
                 \end{enumerate}
             }
         \end{tcolorbox}
@@ -69,7 +70,14 @@
     \input{#2}
 }
 
+\newcommand{\subsubsubject}[2]{
+    \subsubsection*{\large{\textbf{\color{titlered}#1}}}
+    \addcontentsline{toc}{subsubsection}{#1}
+    \input{#2}
+}
+
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{commons/booklet}[2022/09/26 Lenovo's Package]
+
 
