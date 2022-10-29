@@ -1,0 +1,29 @@
+%! Author = Arash Yadegari
+%! Date = 9/26/2022
+
+% Preamble
+\documentclass[12px]{article}
+
+% Packages
+\usepackage{amsmath}
+\usepackage{commons/booklet}
+
+\begin{document}
+
+    \nocite{*}
+    \bibliography{main}
+    \bibliographystyle{plain}
+    \begin{titlepage}
+        \bookletmeta{یه سری فرشته}{*}{YYYY/mm/DD}
+        \vspace{1 cm}
+        \contribute
+    \end{titlepage}
+
+    \newpage
+    \tableofcontents
+
+    \newpage
+    \subject{RDBMS}{files/rdbms.tex}
+    \subject{Data}{files/data.tex}
+
+\end{document}
